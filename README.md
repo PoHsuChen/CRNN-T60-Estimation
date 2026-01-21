@@ -2,9 +2,12 @@
 
 This repository is an unofficial PyTorch implementation of the paper:
 **"Online Blind Reverberation Time Estimation Using CRNNs"** (Interspeech 2020) [1].
+
 The model estimates the reverberation time ($T_{60}$) directly from raw speech waveforms using a CRNN (Convolutional Recurrent Neural Network) architecture with Gammatone-based features.
 
-<img src="ace_boxplot.png" alt="Result Analysis" width="600">
+<p align="center">
+  <img src="ace_boxplot.png" alt="Result Analysis" width="400">
+</p>
 *(Result on ACE Eval Dataset: Prediction Error vs Ground Truth T60)*
 *Figure: Prediction Error vs Ground Truth T60 on the ACE Eval Dataset.*
 
