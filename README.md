@@ -7,9 +7,9 @@ The model estimates the reverberation time ($T_{60}$) directly from raw speech w
 
 <p align="center">
   <img src="ace_boxplot.png" alt="Result Analysis" width="400">
+  <br>
+  <em>Figure: Prediction Error vs Ground Truth T60 on the ACE Eval Dataset.</em>
 </p>
-
-*Figure: Prediction Error vs Ground Truth T60 on the ACE Eval Dataset.*
 
 
 ## 🚀 Performance
@@ -28,9 +28,13 @@ Evaluation on the **ACE Challenge Eval Dataset** (Samples with duration $\ge$ 4s
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ``` bash git clone [https://github.com/PoHsuChen/CRNN-T60-Estimation.git](https://github.com/PoHsuChen/CRNN-T60-Estimation.git) cd CRNN-T60-Estimation ```
+   ``` bash
+    git clone [https://github.com/PoHsuChen/CRNN-T60-Estimation.git](https://github.com/PoHsuChen/CRNN-T60-Estimation.git) cd CRNN-T60-Estimation 
+   ```
 2. Install dependencies:
-    ```bash pip install -r requirements.txt```
+    ```  
+    bash pip install -r requirements.txt
+    ```
 ## 📂 Dataset Preparation
 This implementation uses the ACE Challenge Dataset for evaluation.
 * Training: Synthetic RIRs convolved with LibriSpeech (simulated dynamically or pre-generated).
