@@ -27,11 +27,11 @@
    ```bash
    git clone https://github.com/PoHsuChen/CRNN-T60-Estimation.git
    cd CRNN-T60-Estimation
-
+    ```
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
-    
+    ```
 ## 📂 Dataset Preparation
 This implementation uses the ACE Challenge Dataset for evaluation.
 * Training: Synthetic RIRs convolved with LibriSpeech (simulated dynamically or pre-generated).
@@ -44,7 +44,7 @@ Please update the paths in utils.py:
 Training
 ```python
     python main.py
-
+```
 
 
 ## 📜 Citation
@@ -57,3 +57,4 @@ If you find this code useful, please cite the original paper:
   pages={5061--5065},
   year={2020}
 }
+```
