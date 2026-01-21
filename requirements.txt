@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+tqdm
+nnAudio
+soundfile
