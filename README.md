@@ -32,8 +32,8 @@ Evaluation on the **ACE Challenge Eval Dataset** (Samples with duration $\ge$ 4s
     git clone [https://github.com/PoHsuChen/CRNN-T60-Estimation.git](https://github.com/PoHsuChen/CRNN-T60-Estimation.git) cd CRNN-T60-Estimation 
    ```
 2. Install dependencies:
-    ```  
-    bash pip install -r requirements.txt
+    ```  bash
+    pip install -r requirements.txt
     ```
 ## 📂 Dataset Preparation
 This implementation uses the ACE Challenge Dataset for evaluation.
