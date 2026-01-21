@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torchaudio
 from nnAudio.features import Gammatonegram
-from utils import Config
+from .utils import Config
 # ==========================================
 # Preprocessing (nnAudio Version)
 # ==========================================

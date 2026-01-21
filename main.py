@@ -9,9 +9,9 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from utils import Config, EarlyStopping
-from model import CRNN
-from dataset import TrainDataset, ACETestDataset
+from src.utils import Config, EarlyStopping
+from src.model import CRNN
+from src.dataset import TrainDataset, ACETestDataset
 
 def main():
     print(f"Using device: {Config.DEVICE}")

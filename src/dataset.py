@@ -7,7 +7,7 @@ from torch.utils.data import Dataset
 import torchaudio.transforms as T
 import soundfile as sf
 from tqdm import tqdm
-from utils import Config
+from .utils import Config
 # ==========================================
 # Dataset
 # ==========================================
