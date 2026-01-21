@@ -8,10 +8,6 @@ The model estimates the reverberation time ($T_{60}$) directly from raw speech w
 *(Result on ACE Eval Dataset: Prediction Error vs Ground Truth T60)*
 *Figure: Prediction Error vs Ground Truth T60 on the ACE Eval Dataset.*
 
-## 📌 Features
-* **End-to-End Learning**: Directly estimates $T_{60}$ from raw waveforms using Gammatone-based features.
-* [cite_start]**Hybrid Architecture**: Combines CNN for feature extraction and LSTM for temporal context modeling[cite: 36].
-* **Robustness**: Optimized training strategy with data augmentation (random cropping, noise injection) to handle variable input lengths.
 
 ## 🚀 Performance
 Evaluation on the **ACE Challenge Eval Dataset** (Samples with duration $\ge$ 4s).
@@ -59,6 +55,6 @@ If you find this code useful, please cite the original paper:
   year={2020}
 }
 ```
-[1] S. Deng, W. Mack and E. A. P. Habets, "Online Blind Reverberation Time Estimation Using CRNNs," Proc. Interspeech 2020, pp. 5061-5065, 2020.
+[1] Deng, Shuwen & Mack, Wolfgang & Habets, Emanuël. (2020). Online Blind Reverberation Time Estimation Using CRNNs. 10.21437/Interspeech.2020-2156.
 
-[2] H. Gamper and I. J. Tashev, "Blind reverberation time estimation using a convolutional neural network," Proc. IWAENC, 2018.
+[2]  H. Gamper and I. J. Tashev, “Blind reverberation time estimation using a convolutional neural network,” in Proc. Intl. Workshop Acoust. Signal Enhancement (IWAENC), 2018, pp. 136–140.
