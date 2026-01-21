@@ -25,7 +25,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/CRNN-T60-Estimation.git](https://github.com/your-username/CRNN-T60-Estimation.git)
+   git clone https://github.com/PoHsuChen/CRNN-T60-Estimation.git
    cd CRNN-T60-Estimation
    ```
 2. Install dependencies:
@@ -40,15 +40,16 @@ Please update the paths in utils.py:
     TRAIN_CSV_PATH = "./path/to/your/synthetic/metadata.csv"
     TEST_ROOT_DIR = "./path/to/ACE_Eval_dataset"
 
-▶️ Usage
+## ▶️ Usage
 Training
-    ```bash
-        python main.py
-    ```
+```python
+    python main.py
+```
 
 
-📜 Citation
+## 📜 Citation
 If you find this code useful, please cite the original paper:
+```bibtex
 @inproceedings{deng2020online,
   title={Online Blind Reverberation Time Estimation Using CRNNs},
   author={Deng, Shuwen and Mack, Wolfgang and Habets, Emanuel AP},
@@ -56,3 +57,4 @@ If you find this code useful, please cite the original paper:
   pages={5061--5065},
   year={2020}
 }
+```
