@@ -45,7 +45,7 @@ TEST_ROOT_DIR = "./path/to/ACE_Eval_dataset/Eval/Speech"
 
 ## ▶️ Usage
 Training
-```python main.py```
+```python python main.py```
 
 
 ## 📜 Citation
@@ -57,7 +57,8 @@ If you find this code useful, please cite the original paper:
   booktitle={Proc. Interspeech 2020},
   pages={5061--5065},
   year={2020}
-}```
+}
+```
 [1] S. Deng, W. Mack and E. A. P. Habets, "Online Blind Reverberation Time Estimation Using CRNNs," Proc. Interspeech 2020, pp. 5061-5065, 2020.
 
 [2] H. Gamper and I. J. Tashev, "Blind reverberation time estimation using a convolutional neural network," Proc. IWAENC, 2018.
