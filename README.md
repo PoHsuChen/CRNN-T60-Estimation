@@ -8,7 +8,7 @@ The model estimates the reverberation time ($T_{60}$) directly from raw speech w
 <p align="center">
   <img src="ace_boxplot.png" alt="Result Analysis" width="400">
 </p>
-*(Result on ACE Eval Dataset: Prediction Error vs Ground Truth T60)*
+
 *Figure: Prediction Error vs Ground Truth T60 on the ACE Eval Dataset.*
 
 
