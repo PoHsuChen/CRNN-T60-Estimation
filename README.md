@@ -29,7 +29,7 @@ Evaluation on the **ACE Challenge Eval Dataset** (Samples with duration $\ge$ 4s
 
 1. Clone the repository:
    ``` bash
-   git clone [https://github.com/PoHsuChen/CRNN-T60-Estimation.git](https://github.com/PoHsuChen/CRNN-T60-Estimation.git)
+   git clone https://github.com/PoHsuChen/CRNN-T60-Estimation.git
    cd CRNN-T60-Estimation 
    ```
 2. Install dependencies:
